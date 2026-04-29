@@ -12,9 +12,10 @@ body {
 }
 
 @font-face {
-  font-family: "MyCustomFont";
-  src: url(assets/chomsky/Chomsky.woff2) format("woff2"),
-       url(assets/chomsky/Chomsky.woff) format("woff");
+  font-family: MyCustomFont;
+  src:
+      url('assets/chomsky/Chomsky.woff2') format("woff2"),
+      url('assets/chomsky/Chomsky.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -68,7 +69,7 @@ body {
 
 .header-text h1 {
   margin: 0 auto;
-  font-family: "MyCustomFont", chomsky;
+  font-family: MyCustomFont, chomsky, sans-serif;
   font-size: 70px;
 }
 
