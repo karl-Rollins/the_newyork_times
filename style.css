@@ -14,8 +14,8 @@ body {
 @font-face {
   font-family: MyCustomFont;
   src:
-      url('assets/chomsky/Chomsky.woff2') format("woff2"),
-      url('assets/chomsky/Chomsky.woff') format("woff");
+    url("assets/chomsky/Chomsky.woff2") format("woff2"),
+    url("assets/chomsky/Chomsky.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
