@@ -133,6 +133,7 @@ figcaption {
 .right-side h2 {
   margin-bottom: 10px;
 }
+
 .description {
   margin-bottom: 10px;
   border-bottom: 1px solid;
@@ -272,7 +273,7 @@ figcaption {
 }
 
 .world {
-  border-top: 1px solid ;
+  border-top: 1px solid;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
