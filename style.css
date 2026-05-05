@@ -571,3 +571,91 @@ figcaption {
   padding: 5px;
   border-top: 1px solid #e2e2e2;
 }
+
+.section-9 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 300px;
+  gap: 10px;
+  border-top: 1px solid;
+  padding: 15px 0;
+}
+
+.section-10 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 300px;
+  gap: 10px;
+  border-top: 1px solid;
+  padding: 15px 0;
+}
+
+.section-11headers {
+  border-top: 1px solid;
+  padding: 15px 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.section-11 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 300px;
+  gap: 10px;
+}
+
+.section-11left {
+  display: grid;
+  grid-template-rows: 160px 70px 70px;
+  row-gap: 10px;
+}
+
+.section-11leftup {
+  padding: 5px;
+}
+
+.section-11leftmiddle {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-11leftdown {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-12headers {
+  border-top: 1px solid;
+  padding: 15px 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.section-12 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 300px;
+  gap: 10px;
+}
+
+.section-12left {
+  display: grid;
+  grid-template-rows: 160px 70px 70px;
+  row-gap: 10px;
+}
+
+.section-12leftup {
+  padding: 5px;
+}
+
+.section-12leftmiddle {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-12leftdown {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
