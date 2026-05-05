@@ -491,3 +491,83 @@ figcaption {
   font-size: 13px;
   text-align: center;
 }
+
+.section-6 {
+  padding: 15px;
+  border-top: 1px solid;
+}
+
+.section-6grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 30vh;
+  gap: 10px;
+}
+
+.section-6left {
+  padding-right: 10px;
+  border-right: 1px solid #e2e2e2;
+}
+
+.section-6middle {
+  padding-right: 10px;
+  border-right: 1px solid #e2e2e2;
+}
+
+.section-6figures img {
+  width: 100%;
+  height: inherit;
+}
+
+.section-7 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 400px;
+  gap: 10px;
+}
+
+.section-7left {
+  display: grid;
+  grid-template-rows: 190px 80px 70px;
+  row-gap: 10px;
+}
+
+.section-7leftup {
+  padding: 5px;
+}
+
+.section-7leftmiddle {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-7leftdown {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-7right {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 10px;
+}
+
+.section-8 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 300px;
+  gap: 10px;
+  border-top: 1px solid;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.section-8text {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  padding: 10px;
+}
+
+.section-8textdown {
+  padding: 5px;
+  border-top: 1px solid #e2e2e2;
+}
